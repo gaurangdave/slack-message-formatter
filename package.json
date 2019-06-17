@@ -1,0 +1,16 @@
+{
+  "name": "slack-message-formatter",
+  "version": "1.0.0",
+  "description": "Helper scripts to convert HTML to formatted messages in slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "Slack",
+    "HTML",
+    "Markdown"
+  ],
+  "author": "Gaurang Dave",
+  "license": "ISC"
+}
