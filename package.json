@@ -2,9 +2,10 @@
   "name": "slack-message-formatter",
   "version": "1.0.0",
   "description": "Helper scripts to convert HTML to formatted messages in slack",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest --coverage",
+    "watch": "tsc --watch"
   },
   "keywords": [
     "Slack",
@@ -12,5 +13,19 @@
     "Markdown"
   ],
   "author": "Gaurang Dave",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.8",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.10.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.2"
+  }
 }
